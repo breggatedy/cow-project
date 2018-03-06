@@ -1,0 +1,233 @@
+.bg-screen {
+    width: 100%;
+    height: 88vh;
+    /* height: 100vh; */
+    min-height: 500px;
+}
+
+.hero-bg {
+    background: url('/img/hero-page.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.funfact-screen {
+    width: 100%;
+}
+
+.funfact-bg {
+    background: url('/img/funfact-bg.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.funfact-num-text {
+    font-family: OpenSans;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: -2.8px;
+    text-align: left;
+    color: #88c000;
+    padding-right: 20px;
+}
+
+.funfact-text {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.56;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #757575;
+}
+
+.funfact-rect {
+    padding: 0 30px;
+    background-color: white;
+    border-radius: 6px
+}
+
+.bg-dark {
+    background: rgba(0,0,0,0.7) !important;
+}
+
+.bg-footer {
+    background-color: #333333;
+}
+
+.bg-footer-lower {
+    background-color: #222222;
+}
+
+.nav-link {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.footer-text {
+
+    font-family: OpenSans;
+    font-size: 12px;
+    line-height: 1.64;
+    letter-spacing: 2px;
+    color: #d8d8d8;
+}
+
+.footer-lower-text {
+    font-family: OpenSans;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #aaaaaa;
+}
+
+.footer-nav {
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: 200;
+    color: #f4f4f4;
+}
+
+.col-center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Calty-Farm {
+    font-family: OpenSans;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    color: #ffffff;
+}
+
+.Investasi-Sapi-Perah {
+    font-family: OpenSans;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    color: #ffffff;
+}
+
+.Anda-merupakan-salah {
+  font-family: OpenSans;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+}
+
+h1 {
+    font-family: OpenSans;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #222222;
+}
+
+h5 {
+    font-family: OpenSans;
+    font-size: 18px;
+    color: #222222;
+}
+
+p {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.88;
+    letter-spacing: 0.6px;
+    color: #4a4a4a;
+}
+
+.btn-color {
+    width: 210px;
+    height: 44px;
+    border-radius: 6px;
+    background-image: linear-gradient(117deg, #83C63C, #4D9C26);
+    box-shadow: 0 2px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline {
+    width: 230px;
+    height: 44px;
+    border-radius: 6px;
+    box-shadow: 0 2px 19px -8px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    /* border-image-source: linear-gradient(115deg, #b4ec51, #429321);
+    border-image-slice: 1; */
+    border-color: #01ab50;
+}
+
+.btn-text {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.88;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-outline-text {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.88;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #01ab50;
+}
+
+.btn-link-text {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.88;
+    letter-spacing: 0.6px;
+    color: #008de9;
+}
+
+.img-parent {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.img-101 {
+    position: relative;
+    top: 0px;
+    left: -100px;
+    height: 300px;
+}
+
+.img-102 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 300px;
+}
+
+/*.back-101 {
+    background: url('/img/back-101.svg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}*/
