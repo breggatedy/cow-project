@@ -102,7 +102,11 @@
     letter-spacing: 0.5px;
     text-align: center;
     font-weight: 200;
-    color: #f4f4f4;
+    color: #cccccc;
+}
+
+.footer-nav:hover {
+    color: #ffffff;
 }
 
 .col-center {
@@ -201,6 +205,10 @@ p {
     color: #008de9;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .img-parent {
     position: relative;
     top: 0px;
@@ -219,6 +227,31 @@ p {
     top: 50px;
     left: 50px;
     height: 300px;
+}
+
+.img-103 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5);
+}
+
+.img-104 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.invest-lain-text-box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 19px -8px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    line-height: normal;
+}
+
+.img-103:hover {
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.9);
 }
 
 /*.back-101 {
