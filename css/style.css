@@ -231,3 +231,63 @@ p {
     justify-content: center;
     display: flex;
 }*/
+
+.testi-box {
+    border-radius: 6px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.08);
+    top: center;
+    bottom: center;
+}
+
+.testi-text {
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #4a4a4a;
+    margin-bottom: 0px;
+}
+
+.testi-name {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #222222;
+}
+
+.testi-title {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #01ab50;
+    margin-bottom: 0px;
+}
+
+.carousel-indicators .active {
+    background-color: #88c000;
+}
+
+.carousel-indicators li {
+    background-color: rgba(40,40,40,.1);
+}
+
+.carousel-control-next-icon {
+    background-image: url(/img/arrow-next.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/img/arrow-prev.svg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
