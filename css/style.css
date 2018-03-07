@@ -5,15 +5,83 @@
     min-height: 500px;
 }
 
+.navbar {
+    z-index: 500;
+}
+
 .hero-bg {
     background: url('/img/hero-page.jpg') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     align-items: center;
     justify-content: flex-end;
     display: flex;
+}
+
+.bg-screen-aboutus {
+    width: 100%;
+    height: 400px;
+    /* height: 100vh;
+    min-height: 500px; */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 65%)
+}
+
+.hero-bg-aboutus {
+    background: url('/img/hero-aboutus.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.bg-screen-invest {
+    width: 100%;
+    height: 475px;
+    /* height: 100vh;
+    min-height: 500px; */
+}
+
+.hero-bg-invest {
+    background: url('/img/bg-invest.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.bg-journey {
+    background: url('/img/journey-bg.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey-text {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.sim-table {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-odd {
+    background-color: #f4f4f4;
 }
 
 .funfact-screen {
@@ -242,6 +310,22 @@ a:hover {
     left: 0px;
 }
 
+.img-110 {
+    position: relative;
+    top: 0px;
+    left: -50px;
+    height: 350px;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5)
+}
+
+.img-111 {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    width: 80%;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5)
+}
+
 .invest-lain-text-box {
     border-radius: 5px;
     background-color: #ffffff;
@@ -264,6 +348,18 @@ a:hover {
     justify-content: center;
     display: flex;
 }*/
+
+.quote-text {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #666666;
+}
 
 .testi-box {
     border-radius: 6px;
