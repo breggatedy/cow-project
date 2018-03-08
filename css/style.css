@@ -148,7 +148,6 @@
 }
 
 .footer-text {
-
     font-family: OpenSans;
     font-size: 12px;
     line-height: 1.64;
@@ -334,8 +333,23 @@ a:hover {
     line-height: normal;
 }
 
-.img-103:hover {
+/* .img-103:hover {
     box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.9);
+} */
+
+.modal-dialog {
+    background-color: white;
+    border-radius: 6px;
+    padding: 50px;
+}
+
+.modal-text {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.64;
+    letter-spacing: 2px;
+    color: #444444;
 }
 
 /*.back-101 {
