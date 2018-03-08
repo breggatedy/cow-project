@@ -5,15 +5,83 @@
     min-height: 500px;
 }
 
+.navbar {
+    z-index: 500;
+}
+
 .hero-bg {
     background: url('/img/hero-page.jpg') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     align-items: center;
     justify-content: flex-end;
     display: flex;
+}
+
+.bg-screen-aboutus {
+    width: 100%;
+    height: 400px;
+    /* height: 100vh;
+    min-height: 500px; */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 65%)
+}
+
+.hero-bg-aboutus {
+    background: url('/img/hero-aboutus.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.bg-screen-invest {
+    width: 100%;
+    height: 475px;
+    /* height: 100vh;
+    min-height: 500px; */
+}
+
+.hero-bg-invest {
+    background: url('/img/bg-invest.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.bg-journey {
+    background: url('/img/journey-bg.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey-text {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.sim-table {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-odd {
+    background-color: #f4f4f4;
 }
 
 .funfact-screen {
@@ -80,7 +148,6 @@
 }
 
 .footer-text {
-
     font-family: OpenSans;
     font-size: 12px;
     line-height: 1.64;
@@ -102,7 +169,11 @@
     letter-spacing: 0.5px;
     text-align: center;
     font-weight: 200;
-    color: #f4f4f4;
+    color: #cccccc;
+}
+
+.footer-nav:hover {
+    color: #ffffff;
 }
 
 .col-center {
@@ -201,6 +272,10 @@ p {
     color: #008de9;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .img-parent {
     position: relative;
     top: 0px;
@@ -221,6 +296,62 @@ p {
     height: 300px;
 }
 
+.img-103 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5);
+}
+
+.img-104 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.img-110 {
+    position: relative;
+    top: 0px;
+    left: -50px;
+    height: 350px;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5)
+}
+
+.img-111 {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    width: 80%;
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.5)
+}
+
+.invest-lain-text-box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 19px -8px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* .img-103:hover {
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.9);
+} */
+
+.modal-dialog {
+    background-color: white;
+    border-radius: 6px;
+    padding: 50px;
+}
+
+.modal-text {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.64;
+    letter-spacing: 2px;
+    color: #444444;
+}
+
 /*.back-101 {
     background: url('/img/back-101.svg') no-repeat center center;
     -webkit-background-size: cover;
@@ -231,3 +362,75 @@ p {
     justify-content: center;
     display: flex;
 }*/
+
+.quote-text {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #666666;
+}
+
+.testi-box {
+    border-radius: 6px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.08);
+    top: center;
+    bottom: center;
+}
+
+.testi-text {
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #4a4a4a;
+    margin-bottom: 0px;
+}
+
+.testi-name {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #222222;
+}
+
+.testi-title {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #01ab50;
+    margin-bottom: 0px;
+}
+
+.carousel-indicators .active {
+    background-color: #88c000;
+}
+
+.carousel-indicators li {
+    background-color: rgba(40,40,40,.1);
+}
+
+.carousel-control-next-icon {
+    background-image: url(/img/arrow-next.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/img/arrow-prev.svg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
